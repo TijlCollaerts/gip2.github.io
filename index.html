@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/owl.carousel.min.css">
+    <link rel="stylesheet" href="lib/owl.theme.default.min.css">
+    <link rel="icon" href="images/logo1.jpg">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Nunito:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="lib/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.5/css/nanogallery2.min.css" integrity="sha512-6sOT9zKSKq1CYgNMqtcY84tFPDnG1yX5mxwdGQiAVpAomVr2kUKJ//pFeU/KfaZDVCOru5iFOVswpT4RWWF2dQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Website GIP | Portfolio Template</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg sticky fixed-top r-nav">
+        <div class="container"> <!--Het is een verzameling van triggers, tags, variabelen en gerelateerde configuraties die op een bepaalde website of mobiele applicatie wordt geïnstalleerd.-->
+            <div id="logo">
+                <img src="images/logo5.png" class="img-fluid">
+            </div>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarId">
+                <span><i class="fas fa-bars hamburger"></i></span> <!--Met 'Span' element kan een klein deel van een HTML-document worden ingesloten. Het element 'Span' is een inline-element en breekt de tekst niet op in paragrafen.-->
+            </button>
+            <div class="collapse navbar-collapse" id="navbarId">
+                <ul class="navbar-nav ml-auto">
+                    <li class="navbar-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="navbar-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="navbar-item"><a href="#portofolio" class="nav-link">Photos</a></li>
+                    <li class="navbar-item"><a href="#video" class="nav-link">Video's</a></li>
+                    <li class="navbar-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header id="home">
+        <div class="container-fluid header-content"> <!--biedt een container over de volledige breedte die de volledige breedte van de viewport beslaat.-->
+            <div class="row">
+                <div class="col text-center">
+                    <div class="content-box">
+                        <h4>Welcome</h4> <!--heading tag-->
+                        <h1>Cattoys</h1> <!--heading tag-->
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="about" id="about"> <!--een speciale betekenis of functie op jouw pagina heeft uniek aan te duiden-->
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-lg-6">
+                    <img src="images/flo51.jpg" class="img-fluid img-thumbnail" alt="profile picture">
+                </div>
+                <div class="col-lg-6">
+                    <h2>About us</h2>
+                    <h4>Hi there!<span class="name"> </span>
+                    </h4>
+                    <p>Ik ben Tijl.</p> <!--paragraaf-->
+                    <p>Dit is mijn eindwerk in de richting Multimedia, het gaat over kattenspeeltjes en accessoires.</p>
+                    <p>De kat die jullie op de foto's zien is Flo, ze heeft ook in de video geacteerd en heeft haar best gedaan voor een tof resultaat.</p> <!--paragraaf-->
+                </div> <!--Met dit element kun je een onderdeel van je pagina insluiten en precies daar positioneren waar jij wilt.-->
+            </div>
+        </div>
+    </section>
+    <section id="portofolio">
+        <h1>Photos</h1>
+        <div class="container">
+            <!-- ### start of the gallery definition ### -->
+            <div ID="ngy2p" data-nanogallery2='{
+        "itemsBaseURL": "images/",
+        "thumbnailWidth": "auto",
+        "thumbnailLabel": {
+          "position": "overImageOnBottom"
+        },
+        "galleryDisplayMode": "pagination",
+        "galleryMaxRows": 1,
+        "thumbnailAlignment": "center",
+        "thumbnailOpenImage": true
+      }'>
+                <!-- gallery content -->
+                <a href="Flo40.jpg" data-ngThumb="Flo40.jpg"></a>
+                <a href="Flo41.jpg" data-ngThumb="Flo41.jpg"></a>
+                <a href="Flo42.jpg" data-ngThumb="Flo42.jpg"></a>
+                <a href="Flo43.jpg" data-ngThumb="Flo43.jpg"></a>
+                <a href="Flo44.jpg" data-ngThumb="Flo44.jpg"></a>
+                <a href="Flo45.jpg" data-ngThumb="Flo45.jpg"></a>
+                <a href="Flo46.jpg" data-ngThumb="Flo46.jpg"></a>
+                <a href="Flo47.jpg" data-ngThumb="Flo47.jpg"></a>
+                <a href="Flo48.jpg" data-ngThumb="Flo48.jpg"></a>
+            </div>
+            <!-- ### end of the gallery definition ### -->
+        </div>
+          <h1 id="video">Video's</h1>
+        
+            <div class="row">
+                <div class="iframe-container"></div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/WWXYbjX0ISk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        </div>
+
+                    <div class="row">
+                <div class="iframe-container"></div>
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/lYKRjROqgJU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container-form">
+            <div class="contact-box">
+                <div class="right">
+                    <h2 class="title-form">Contact Us</h2>
+                    <input type="text" class="field" placeholder="Your Name">
+                    <input type="text" class="field" placeholder="Your Email">
+                    <input type="text" class="field" placeholder="Phone">
+                    <textarea placeholder="Message" class="field"></textarea>
+                    <button class="btn-form">Send</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="lib/jquery-3.3.1.min.js"></script> <!--aangeeft dat het om een script gaat. In die tag kan worden aangegeven welke scripttaal wordt gebruikt-->
+    <script src="lib/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.5/jquery.nanogallery2.min.js" integrity="sha512-tvpLVnZrWnnNzV2921XEMx4xkFTUF8xg3s+Mi6cvC/R7A6X1FkpBUXPJFa3Xh5uD9BvOZ2tHeYq/5ZqrweW86Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/jquery.smooth-scroll.js"></script> 
+    <script src="lib/imagesloaded.pkgd.min.js"></script>
+    <script src="lib/owl.carousel.min.js"></script>
+    <script src="lib/typed.js"></script>
+    <script src="lib/jquery.waypoints.min.js"></script>
+    <script src="lib/jquery.filterizr.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
